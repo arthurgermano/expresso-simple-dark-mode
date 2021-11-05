@@ -1,0 +1,13 @@
+{
+  "name": "Expresso - Simple Dark Mode",
+  "description": "Simple DarkMode Expresso CSS!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": 
+  [
+    {
+      "matches": ["https://expresso.pr.gov.br/expressoMail1_2/*"],
+      "css": ["custom-styles.css"]
+    }
+  ]
+}

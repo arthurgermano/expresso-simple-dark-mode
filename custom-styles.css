@@ -1,0 +1,162 @@
+:root {
+  --default-text-color: #ffffff;
+  --default-background-color: #3e3c3c;
+}
+
+body {
+  background-color: var(--default-background-color) !important;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+td.content-menu {
+  background-image: unset !important;
+  background-color: var(--default-background-color) !important;
+}
+
+.em_sidebox_menu {
+  color: var(--default-text-color) !important;
+}
+
+#content_folders {
+  background-image: unset !important;
+  background-color: var(--default-background-color) !important;
+}
+
+.l {
+  color: var(--default-text-color) !important;
+}
+
+span.clean_folder {
+  color: var(--default-text-color) !important;
+}
+
+.table_box tr {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+tr.tr_msg_unread {
+  background-color: #969696 !important;
+  color: var(--default-text-color) !important;
+}
+
+.message_options {
+  color: var(--default-text-color) !important;
+}
+
+.message_header {
+  color: var(--default-text-color) !important;
+}
+
+#span_D {
+  color: var(--default-text-color) !important;
+}
+
+#divAppboxHeader {
+  background: unset !important;
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+.divAppboxHeader {
+  background: unset !important;
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+#main_title {
+  color: var(--default-text-color) !important;
+}
+
+a {
+  color: var(--default-text-color) !important;
+}
+
+.menu-sel {
+  color: var(--default-text-color) !important;
+  background-color: var(--default-background-color) !important;
+}
+
+#tot_m {
+  color: var(--default-text-color) !important;
+}
+
+#border_id_0 > font {
+  color: var(--default-text-color) !important;
+}
+
+#divAppbox {
+  background: unset !important;
+  background-color: var(--default-background-color) !important;
+}
+
+#tdAppbox {
+  background: unset !important;
+  background-color: var(--default-background-color) !important;
+}
+
+.navbar_but {
+  background: unset !important;
+}
+
+.navbar_butOver {
+  background: unset !important;
+}
+
+.toolbar {
+  background: unset !important;
+}
+
+.font-menu-sel {
+  color: var(--default-text-color) !important;
+  background-color: var(--default-background-color) !important;
+}
+
+.menu {
+  background: unset !important;
+  background-color: var(--default-background-color) !important;
+}
+
+.table_box > thead th {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+  border-bottom: solid 1.1px #4A79B1 !important
+}
+
+.conteudo {
+  background-color: var(--default-background-color) !important;
+ 
+}
+
+.em_button_like_span, #send_button_1, #save_message_options_1, #content_id_1 > table > tbody > tr > td > input:nth-child(3),
+table.table_message > tbody > tr > td > input {
+  background: unset !important;
+  color: var(--default-text-color) !important;
+  background-color: var(--default-background-color) !important;
+}
+
+.logo_expresso {
+  background: unset !important;
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+.logo_expresso::after {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin-top: -1rem;
+  font-family: sans-serif;
+  font-style: italic;
+  content: "Expresso";
+}
+
+.font-menu {
+  color: var(--default-text-color) !important;
+  background-color: var(--default-background-color) !important;
+}
