@@ -160,3 +160,23 @@ table.table_message > tbody > tr > td > input {
   color: var(--default-text-color) !important;
   background-color: var(--default-background-color) !important;
 }
+
+.tr_msg_read2 {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+.quicksearchcontacts_unselected {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+span[name="email"], #table_QuickSearchUser > tr > td > a > font > span {
+  background-color: var(--default-background-color) !important;
+  color: var(#02b9d6, --default-text-color) !important;
+}
+
+#div_tree {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
