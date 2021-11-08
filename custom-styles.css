@@ -72,10 +72,6 @@ tr.tr_msg_unread {
   color: var(--default-text-color) !important;
 }
 
-a {
-  color: var(--default-text-color) !important;
-}
-
 .menu-sel {
   color: var(--default-text-color) !important;
   background-color: var(--default-background-color) !important;
@@ -177,6 +173,11 @@ span[name="email"], #table_QuickSearchUser > tr > td > a > font > span {
 }
 
 #div_tree {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+#span_paging > a {
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
 }
