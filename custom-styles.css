@@ -15,6 +15,14 @@ body {
   color: var(--default-text-color) !important;
 }
 
+.em_div_sidebox_menu:hover,
+.content-menu-td:hover,
+span[id^="lINBOX"]:hover {
+  background-color: #555454 !important;
+  color: var(--default-text-color) !important;
+  border: 1px solid #555454 !important;
+}
+
 td.content-menu {
   background-image: unset !important;
   background-color: var(--default-background-color) !important;
