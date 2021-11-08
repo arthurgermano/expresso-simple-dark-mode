@@ -198,10 +198,14 @@ span[name="email"],
 }
 
 a[id^="a_cc_link"],
-a[id^="space_link"],
-a[id^="a_cco_link_1"],
-a[id^="a_replyto_link_1"],
-#div_message_scroll_1 > form > table > tbody > tr > td > a {
+span[id^="space_link"],
+a[id^="a_cco_link"],
+a[id^="a_replyto_link"],
+div[id^="div_message_scroll_"] > form > table > tbody > tr > td > a,
+div[id^="divFiles"] > div.cids > a,
+div[id^="divFiles"] > a,
+div[id^="divFiles"] > div.common > div > a,
+div[id^="div_message_scroll_"] > form > table > tbody > tr:nth-child(10) > td > a {
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
 }
