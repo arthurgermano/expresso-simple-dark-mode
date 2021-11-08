@@ -68,7 +68,10 @@ tr.tr_msg_unread {
 }
 
 #divAppboxHeader,
-.table_message {
+.table_message,
+.tr_message_header,
+td[id^="attachments_"] > div.common > div > a,
+td[id^="attachments_"] > a {
   background: unset !important;
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
