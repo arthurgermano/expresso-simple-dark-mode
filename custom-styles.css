@@ -7,7 +7,10 @@ body {
   background-color: var(--default-background-color) !important;
 }
 
-.message_header, #em_div_sidebox_menu, #content-menu-td, #folders_tbl > tbody > tr:nth-child(1) > td > table > tbody > tr {
+.message_header,
+#em_div_sidebox_menu,
+#content-menu-td,
+#folders_tbl > tbody > tr:nth-child(1) > td > table > tbody > tr {
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
 }
@@ -56,7 +59,8 @@ tr.tr_msg_unread {
   color: var(--default-text-color) !important;
 }
 
-#divAppboxHeader, .table_message {
+#divAppboxHeader,
+.table_message {
   background: unset !important;
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
@@ -120,15 +124,17 @@ tr.tr_msg_unread {
 .table_box > thead th {
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
-  border-bottom: solid 1.1px #4A79B1 !important
+  border-bottom: solid 1.1px #4a79b1 !important;
 }
 
 .conteudo {
   background-color: var(--default-background-color) !important;
- 
 }
 
-.em_button_like_span, #send_button_1, #save_message_options_1, #content_id_1 > table > tbody > tr > td > input:nth-child(3),
+.em_button_like_span,
+#send_button_1,
+#save_message_options_1,
+#content_id_1 > table > tbody > tr > td > input:nth-child(3),
 table.table_message > tbody > tr > td > input {
   background: unset !important;
   color: var(--default-text-color) !important;
@@ -167,7 +173,8 @@ table.table_message > tbody > tr > td > input {
   color: var(--default-text-color) !important;
 }
 
-span[name="email"], #table_QuickSearchUser > tr > td > a > font > span {
+span[name="email"],
+#table_QuickSearchUser > tr > td > a > font > span {
   background-color: var(--default-background-color) !important;
   color: var(#02b9d6, --default-text-color) !important;
 }
@@ -178,6 +185,37 @@ span[name="email"], #table_QuickSearchUser > tr > td > a > font > span {
 }
 
 #span_paging > a {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+a[id^="a_cc_link"],
+a[id^="space_link"],
+a[id^="a_cco_link_1"],
+a[id^="a_replyto_link_1"],
+#div_message_scroll_1 > form > table > tbody > tr > td > a {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+td[id^="border_id_"] {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+div[id^="div_message_scroll_"] > form > table > tbody > tr:nth-child(9),
+div[id^="div_message_scroll_"]
+  > form
+  > table
+  > tbody
+  > tr:nth-child(4)
+  > td:nth-child(1),
+div[id^="div_message_scroll_"]
+  > form
+  > table
+  > tbody
+  > tr:nth-child(8)
+  > td:nth-child(1) {
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
 }
