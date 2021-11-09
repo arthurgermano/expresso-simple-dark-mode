@@ -45,12 +45,12 @@ span.clean_folder {
   color: var(--default-text-color) !important;
 }
 
-.table_box tr {
+.table_box tr, tr.tr_msg_read {
   background-color: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
 }
 
-tr.tr_msg_unread {
+tr.tr_msg_unread{
   background-color: #969696 !important;
   color: var(--default-text-color) !important;
 }
@@ -232,5 +232,10 @@ div[id^="div_message_scroll_"]
   > tr:nth-child(8)
   > td:nth-child(1) {
   background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+.selected_msg > .td_msg, .selected_msg > td {
+  background-color: #4a79b1 !important;
   color: var(--default-text-color) !important;
 }
