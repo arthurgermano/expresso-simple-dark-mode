@@ -239,3 +239,7 @@ div[id^="div_message_scroll_"]
   background-color: #4a79b1 !important;
   color: var(--default-text-color) !important;
 }
+
+.navbar_butOut {
+  background: unset !important;
+}
