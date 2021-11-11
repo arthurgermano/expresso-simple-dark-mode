@@ -51,7 +51,7 @@ span.clean_folder {
 }
 
 tr.tr_msg_unread{
-  background-color: #969696 !important;
+  background-color: #46694a !important;
   color: var(--default-text-color) !important;
 }
 
